@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CF9799019A627B1002024CB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CF9798F19A627B1002024CB /* Cocoa.framework */; };
+		6CF9799A19A627B1002024CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CF9799819A627B1002024CB /* InfoPlist.strings */; };
+		6CF9799C19A627B1002024CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF9799B19A627B1002024CB /* main.m */; };
+		6CF979A019A627B1002024CB /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6CF9799E19A627B1002024CB /* Credits.rtf */; };
+		6CF979A319A627B1002024CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF979A219A627B1002024CB /* AppDelegate.m */; };
+		6CF979A619A627B1002024CB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CF979A419A627B1002024CB /* MainMenu.xib */; };
+		6CF979A819A627B1002024CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CF979A719A627B1002024CB /* Images.xcassets */; };
+		6CF979AF19A627B1002024CB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CF979AE19A627B1002024CB /* XCTest.framework */; };
+		6CF979B019A627B1002024CB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CF9798F19A627B1002024CB /* Cocoa.framework */; };
+		6CF979B819A627B2002024CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CF979B619A627B2002024CB /* InfoPlist.strings */; };
+		6CF979BA19A627B2002024CB /* RemoteSvnUpdateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF979B919A627B2002024CB /* RemoteSvnUpdateTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CF979B119A627B2002024CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CF9798419A627B1002024CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CF9798B19A627B1002024CB;
+			remoteInfo = RemoteSvnUpdate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6CF9798C19A627B1002024CB /* RemoteSvnUpdate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemoteSvnUpdate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CF9798F19A627B1002024CB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6CF9799219A627B1002024CB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		6CF9799319A627B1002024CB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6CF9799419A627B1002024CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6CF9799719A627B1002024CB /* RemoteSvnUpdate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RemoteSvnUpdate-Info.plist"; sourceTree = "<group>"; };
+		6CF9799919A627B1002024CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6CF9799B19A627B1002024CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6CF9799D19A627B1002024CB /* RemoteSvnUpdate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RemoteSvnUpdate-Prefix.pch"; sourceTree = "<group>"; };
+		6CF9799F19A627B1002024CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		6CF979A119A627B1002024CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6CF979A219A627B1002024CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6CF979A519A627B1002024CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6CF979A719A627B1002024CB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6CF979AD19A627B1002024CB /* RemoteSvnUpdateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemoteSvnUpdateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CF979AE19A627B1002024CB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6CF979B519A627B2002024CB /* RemoteSvnUpdateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RemoteSvnUpdateTests-Info.plist"; sourceTree = "<group>"; };
+		6CF979B719A627B2002024CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6CF979B919A627B2002024CB /* RemoteSvnUpdateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemoteSvnUpdateTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CF9798919A627B1002024CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CF9799019A627B1002024CB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CF979AA19A627B1002024CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CF979B019A627B1002024CB /* Cocoa.framework in Frameworks */,
+				6CF979AF19A627B1002024CB /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CF9798319A627B1002024CB = {
+			isa = PBXGroup;
+			children = (
+				6CF9799519A627B1002024CB /* RemoteSvnUpdate */,
+				6CF979B319A627B2002024CB /* RemoteSvnUpdateTests */,
+				6CF9798E19A627B1002024CB /* Frameworks */,
+				6CF9798D19A627B1002024CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CF9798D19A627B1002024CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CF9798C19A627B1002024CB /* RemoteSvnUpdate.app */,
+				6CF979AD19A627B1002024CB /* RemoteSvnUpdateTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CF9798E19A627B1002024CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CF9798F19A627B1002024CB /* Cocoa.framework */,
+				6CF979AE19A627B1002024CB /* XCTest.framework */,
+				6CF9799119A627B1002024CB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CF9799119A627B1002024CB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CF9799219A627B1002024CB /* AppKit.framework */,
+				6CF9799319A627B1002024CB /* CoreData.framework */,
+				6CF9799419A627B1002024CB /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		6CF9799519A627B1002024CB /* RemoteSvnUpdate */ = {
+			isa = PBXGroup;
+			children = (
+				6CF979A119A627B1002024CB /* AppDelegate.h */,
+				6CF979A219A627B1002024CB /* AppDelegate.m */,
+				6CF979A419A627B1002024CB /* MainMenu.xib */,
+				6CF979A719A627B1002024CB /* Images.xcassets */,
+				6CF9799619A627B1002024CB /* Supporting Files */,
+			);
+			path = RemoteSvnUpdate;
+			sourceTree = "<group>";
+		};
+		6CF9799619A627B1002024CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CF9799719A627B1002024CB /* RemoteSvnUpdate-Info.plist */,
+				6CF9799819A627B1002024CB /* InfoPlist.strings */,
+				6CF9799B19A627B1002024CB /* main.m */,
+				6CF9799D19A627B1002024CB /* RemoteSvnUpdate-Prefix.pch */,
+				6CF9799E19A627B1002024CB /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6CF979B319A627B2002024CB /* RemoteSvnUpdateTests */ = {
+			isa = PBXGroup;
+			children = (
+				6CF979B919A627B2002024CB /* RemoteSvnUpdateTests.m */,
+				6CF979B419A627B2002024CB /* Supporting Files */,
+			);
+			path = RemoteSvnUpdateTests;
+			sourceTree = "<group>";
+		};
+		6CF979B419A627B2002024CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CF979B519A627B2002024CB /* RemoteSvnUpdateTests-Info.plist */,
+				6CF979B619A627B2002024CB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CF9798B19A627B1002024CB /* RemoteSvnUpdate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CF979BD19A627B2002024CB /* Build configuration list for PBXNativeTarget "RemoteSvnUpdate" */;
+			buildPhases = (
+				6CF9798819A627B1002024CB /* Sources */,
+				6CF9798919A627B1002024CB /* Frameworks */,
+				6CF9798A19A627B1002024CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RemoteSvnUpdate;
+			productName = RemoteSvnUpdate;
+			productReference = 6CF9798C19A627B1002024CB /* RemoteSvnUpdate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6CF979AC19A627B1002024CB /* RemoteSvnUpdateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CF979C019A627B2002024CB /* Build configuration list for PBXNativeTarget "RemoteSvnUpdateTests" */;
+			buildPhases = (
+				6CF979A919A627B1002024CB /* Sources */,
+				6CF979AA19A627B1002024CB /* Frameworks */,
+				6CF979AB19A627B1002024CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CF979B219A627B2002024CB /* PBXTargetDependency */,
+			);
+			name = RemoteSvnUpdateTests;
+			productName = RemoteSvnUpdateTests;
+			productReference = 6CF979AD19A627B1002024CB /* RemoteSvnUpdateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CF9798419A627B1002024CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					6CF979AC19A627B1002024CB = {
+						TestTargetID = 6CF9798B19A627B1002024CB;
+					};
+				};
+			};
+			buildConfigurationList = 6CF9798719A627B1002024CB /* Build configuration list for PBXProject "RemoteSvnUpdate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CF9798319A627B1002024CB;
+			productRefGroup = 6CF9798D19A627B1002024CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CF9798B19A627B1002024CB /* RemoteSvnUpdate */,
+				6CF979AC19A627B1002024CB /* RemoteSvnUpdateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CF9798A19A627B1002024CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CF9799A19A627B1002024CB /* InfoPlist.strings in Resources */,
+				6CF979A819A627B1002024CB /* Images.xcassets in Resources */,
+				6CF979A019A627B1002024CB /* Credits.rtf in Resources */,
+				6CF979A619A627B1002024CB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CF979AB19A627B1002024CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CF979B819A627B2002024CB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CF9798819A627B1002024CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CF979A319A627B1002024CB /* AppDelegate.m in Sources */,
+				6CF9799C19A627B1002024CB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CF979A919A627B1002024CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CF979BA19A627B2002024CB /* RemoteSvnUpdateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CF979B219A627B2002024CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CF9798B19A627B1002024CB /* RemoteSvnUpdate */;
+			targetProxy = 6CF979B119A627B2002024CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6CF9799819A627B1002024CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CF9799919A627B1002024CB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6CF9799E19A627B1002024CB /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CF9799F19A627B1002024CB /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		6CF979A419A627B1002024CB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CF979A519A627B1002024CB /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		6CF979B619A627B2002024CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CF979B719A627B2002024CB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CF979BB19A627B2002024CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6CF979BC19A627B2002024CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6CF979BE19A627B2002024CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RemoteSvnUpdate/RemoteSvnUpdate-Prefix.pch";
+				INFOPLIST_FILE = "RemoteSvnUpdate/RemoteSvnUpdate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6CF979BF19A627B2002024CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RemoteSvnUpdate/RemoteSvnUpdate-Prefix.pch";
+				INFOPLIST_FILE = "RemoteSvnUpdate/RemoteSvnUpdate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6CF979C119A627B2002024CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RemoteSvnUpdate.app/Contents/MacOS/RemoteSvnUpdate";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RemoteSvnUpdate/RemoteSvnUpdate-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RemoteSvnUpdateTests/RemoteSvnUpdateTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6CF979C219A627B2002024CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RemoteSvnUpdate.app/Contents/MacOS/RemoteSvnUpdate";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RemoteSvnUpdate/RemoteSvnUpdate-Prefix.pch";
+				INFOPLIST_FILE = "RemoteSvnUpdateTests/RemoteSvnUpdateTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CF9798719A627B1002024CB /* Build configuration list for PBXProject "RemoteSvnUpdate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CF979BB19A627B2002024CB /* Debug */,
+				6CF979BC19A627B2002024CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CF979BD19A627B2002024CB /* Build configuration list for PBXNativeTarget "RemoteSvnUpdate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CF979BE19A627B2002024CB /* Debug */,
+				6CF979BF19A627B2002024CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6CF979C019A627B2002024CB /* Build configuration list for PBXNativeTarget "RemoteSvnUpdateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CF979C119A627B2002024CB /* Debug */,
+				6CF979C219A627B2002024CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CF9798419A627B1002024CB /* Project object */;
+}

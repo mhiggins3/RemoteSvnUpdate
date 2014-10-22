@@ -18,6 +18,8 @@
 		6CF979B019A627B1002024CB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CF9798F19A627B1002024CB /* Cocoa.framework */; };
 		6CF979B819A627B2002024CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CF979B619A627B2002024CB /* InfoPlist.strings */; };
 		6CF979BA19A627B2002024CB /* RemoteSvnUpdateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF979B919A627B2002024CB /* RemoteSvnUpdateTests.m */; };
+		6CF979C819A65347002024CB /* PreferencesControllerWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF979C619A65347002024CB /* PreferencesControllerWindowController.m */; };
+		6CF979C919A65347002024CB /* PreferencesControllerWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CF979C719A65347002024CB /* PreferencesControllerWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,9 @@
 		6CF979B519A627B2002024CB /* RemoteSvnUpdateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RemoteSvnUpdateTests-Info.plist"; sourceTree = "<group>"; };
 		6CF979B719A627B2002024CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6CF979B919A627B2002024CB /* RemoteSvnUpdateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemoteSvnUpdateTests.m; sourceTree = "<group>"; };
+		6CF979C519A65347002024CB /* PreferencesControllerWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesControllerWindowController.h; sourceTree = "<group>"; };
+		6CF979C619A65347002024CB /* PreferencesControllerWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesControllerWindowController.m; sourceTree = "<group>"; };
+		6CF979C719A65347002024CB /* PreferencesControllerWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferencesControllerWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +125,9 @@
 				6CF979A419A627B1002024CB /* MainMenu.xib */,
 				6CF979A719A627B1002024CB /* Images.xcassets */,
 				6CF9799619A627B1002024CB /* Supporting Files */,
+				6CF979C519A65347002024CB /* PreferencesControllerWindowController.h */,
+				6CF979C619A65347002024CB /* PreferencesControllerWindowController.m */,
+				6CF979C719A65347002024CB /* PreferencesControllerWindowController.xib */,
 			);
 			path = RemoteSvnUpdate;
 			sourceTree = "<group>";
@@ -233,6 +241,7 @@
 				6CF9799A19A627B1002024CB /* InfoPlist.strings in Resources */,
 				6CF979A819A627B1002024CB /* Images.xcassets in Resources */,
 				6CF979A019A627B1002024CB /* Credits.rtf in Resources */,
+				6CF979C919A65347002024CB /* PreferencesControllerWindowController.xib in Resources */,
 				6CF979A619A627B1002024CB /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CF979A319A627B1002024CB /* AppDelegate.m in Sources */,
+				6CF979C819A65347002024CB /* PreferencesControllerWindowController.m in Sources */,
 				6CF9799C19A627B1002024CB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,6 +399,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RemoteSvnUpdate/RemoteSvnUpdate-Prefix.pch";
 				INFOPLIST_FILE = "RemoteSvnUpdate/RemoteSvnUpdate-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -402,6 +413,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RemoteSvnUpdate/RemoteSvnUpdate-Prefix.pch";
 				INFOPLIST_FILE = "RemoteSvnUpdate/RemoteSvnUpdate-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -466,6 +478,7 @@
 				6CF979BF19A627B2002024CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6CF979C019A627B2002024CB /* Build configuration list for PBXNativeTarget "RemoteSvnUpdateTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +487,7 @@
 				6CF979C219A627B2002024CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
